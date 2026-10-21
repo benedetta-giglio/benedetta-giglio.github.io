@@ -4,12 +4,10 @@ title: "The human body is a multi-joint system"
 date: 2026-10-22
 ---
 
-Primo paragrafo: in home compare solo questo, quindi fai che riassuma l'articolo.
-
-## Un titolo di sezione
-
 At the macroscopic level, we can represent the human body as an articulated system: a collection of connected segments that can rotate relative to one another at the wrists, elbows, shoulders, hips, knees and ankles.
+
 Let’s return to the straight handstand. Maintaining this position requires coordinated control of the body’s joint configuration, expressed through a beautiful alternation between flexion and extension:
+
 - toes are plantar flexed
 - ankles are plantar flexed
 - knees are extended
