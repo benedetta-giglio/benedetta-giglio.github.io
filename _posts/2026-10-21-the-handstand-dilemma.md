@@ -43,9 +43,15 @@ Newton’s second law describes the translational motion of the body’s center 
 
 Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists. In this configuration, when a small tilt occurs, gravity generates a moment about the wrists that has to be balanced by the moment generated at the wrists themselves (Figure 2).
 
+<figure>
+	img src="{{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }}" alt="Inverted pendulum model">
+  <figcaption>Figure 2. Inverted pendulum model for a stationary handstand.</figcaption>
+</figure>
+
 ![Figure 2. inverted_pendulum_handstand_model_r1]({{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }})
 
 Taking moments about the pivot (the wrists), the rotational equation of motion is:
+
 $$
 \sum M_{O} = I_{O}\,\alpha = mgh\sin\theta+\tau
 $$
