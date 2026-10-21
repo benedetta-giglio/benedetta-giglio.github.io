@@ -4,7 +4,7 @@ theme: minima
 lang: en
 markdown: kramdown
 kramdown:
-  math_engine: null
+  math_engine: mathjax
 show_excerpts: true
 exclude:
   - python
