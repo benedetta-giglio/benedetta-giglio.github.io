@@ -32,12 +32,12 @@ $$
 \sum \mathbf{F} = m\mathbf{a}_{CM}
 $$
 
-To model which torques act and where, we consider the three planes of human movement (represented in Figure 1):
-•	frontal (or coronal) plane
-•	transverse (or horizontal) plane
-•	sagittal (or median) plane
+To model which torques act and where, we consider the three planes of human movement: frontal or coronal plane; transverse or horizontal plane; sagittal or median plane (Figure 1).
 
-![Figure 1. planes of human movement]({{ '/assets/img/planes_of_human_movement.png' | relative_url }})
+<figure>
+	img src="{{ '/assets/img/planes_of_human_movement.png' | relative_url }}" alt="Frontal, sagittal and transverse planes through a standing human figure">
+  <figcaption>Figure 1. Planes of human movement.</figcaption>
+</figure>
 
 Newton’s second law describes the translational motion of the body’s center of mass in the sagittal and frontal planes — the ones in which our center of mass moves when we try to balance a two-arm straight handstand — but it does not tell the whole story. We must also account for rotational motion and the balance of moments.
 
