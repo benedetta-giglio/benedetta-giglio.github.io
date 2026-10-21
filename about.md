@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
-
- HEAD
 
 This page is under construction 
