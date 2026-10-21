@@ -1,7 +1,8 @@
 ---
 layout: home
-list_title: Articles
+list_title: projects
 ---
 
-Articles on the physics and dynamics of handbalancing. Each one takes a handstand
-shape, builds a mechanical model of it and simulates the equations in Python.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Vestibulum consequat mi quis pretium semper. 
+Proin luctus orci ac neque venenatis, quis commodo dolor posuere.
