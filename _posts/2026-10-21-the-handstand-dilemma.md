@@ -35,8 +35,8 @@ $$
 To model which torques act and where, we consider the three planes of human movement: frontal or coronal plane; transverse or horizontal plane; sagittal or median plane (Figure 1).
 
 <figure>
-	img src="{{ '/assets/img/planes_of_human_movement.png' | relative_url }}" alt="Frontal, sagittal and transverse planes through a standing human figure">
-  <figcaption>Figure 1. Planes of human movement.</figcaption>
+	<img src="{{ '/assets/img/planes_of_human_movement.png' | relative_url }}" alt="Frontal, sagittal and transverse planes through a standing human figure">
+  <figcaption>Figure 1. Anatomical planes of human movement.</figcaption>
 </figure>
 
 Newton’s second law describes the translational motion of the body’s center of mass in the sagittal and frontal planes — the ones in which our center of mass moves when we try to balance a two-arm straight handstand — but it does not tell the whole story. We must also account for rotational motion and the balance of moments.
@@ -44,11 +44,9 @@ Newton’s second law describes the translational motion of the body’s center 
 Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists. In this configuration, when a small tilt occurs, gravity generates a moment about the wrists that has to be balanced by the moment generated at the wrists themselves (Figure 2).
 
 <figure>
-	img src="{{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }}" alt="Inverted pendulum model">
+	<img src="{{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }}" alt="Inverted pendulum model">
   <figcaption>Figure 2. Inverted pendulum model for a stationary handstand.</figcaption>
 </figure>
-
-![Figure 2. inverted_pendulum_handstand_model_r1]({{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }})
 
 Taking moments about the pivot (the wrists), the rotational equation of motion is:
 
