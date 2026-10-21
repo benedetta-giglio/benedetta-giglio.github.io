@@ -4,13 +4,13 @@ title: "The physics behind balancing on hands (part 1)"
 date: 2026-10-21
 ---
 
-There is a simple physical truth behind the ability to hold a handstand: the constant, inevitable pull of gravity. At first glance, a handstand looks like a static pose — but beneath that apparent stillness, a vibrant orchestra of forces is at work. Although humans did not evolve to spend time upside down balancing on their hands, the body displays an extraordinary ability to reorganize and adapt, even when faced with such an unusual, functionally useless, mentally draining and frustrating task.
-
 ## Foreword
 
 There is a simple physical truth behind the ability to hold a handstand: the constant, inevitable pull of gravity.
 
 At first glance, a handstand looks like a static pose — but beneath that apparent stillness, a vibrant orchestra of forces is at work. To understand how these forces play their part in this physical symphony, we first need a model that captures what we might call the handstand dilemma.
+
+## Foreword
 
 For a long time, my engineering background led me to think of handbalancing as a problem of mechanical equilibrium. And for years, practicing a handstand felt remarkably similar to solving a physics and motor-control problem. I approached every movement as if it were an equation to solve. Which muscle should I recruit for a given task? How could I engage the strongest and most natural kinetic chain without introducing compensations? How could I coordinate all of it in order to perform the movement properly?
 Over the years, my all-consuming side project has been refining the model to make it fit the reality of a human body balancing itself against the relentless pull of gravity, and ultimately to find the perfect solution to the equation. And practicing handstands, of course. 
