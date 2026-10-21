@@ -4,7 +4,7 @@ title: "The physics behind balancing on hands (part 1)"
 date: 2026-10-21
 ---
 
-*Draft: the full revised article will replace this placeholder.*
+Navigating handstand complexity: a first simplified model
 
 ## Foreword
 
