@@ -77,8 +77,7 @@ $$
 This fundamental relation shows that the rate of change of total mechanical energy equals the power input from the control torque. When the body tilts away from vertical, potential energy decreases. Depending on the direction of motion and the applied torque, kinetic energy may increase or decrease. Thus, the goal of the control torque is not merely to stop the fall instantly, but to manage system energy over time. Without control torque ($\tau = 0$), the system conserves total mechanical energy ($\frac{dE}{dt} = 0$).
 
 <figure>
-  <img src="/assets/img/figure4_energy_conservation.png"
-       alt="Conservation of energy for the inverted pendulum">
+  <img src="{{ site.baseurl }}/assets/images/pendulum.gif" alt="Conservation of energy for the inverted pendulum">
   <figcaption>Figure 4. Conservation of energy for the inverted pendulum.</figcaption>
 </figure>
 
