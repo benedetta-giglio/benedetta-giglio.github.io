@@ -1,6 +1,6 @@
-# Handstand physics
+# the handstand dilemma
 
-Portfolio of articles on the physics and dynamics of handbalancing.
+the physics behind balancing on hands
 
 ## Add a new article
 Create a file in `_posts/` named `YYYY-MM-DD-title.md` that starts with:
