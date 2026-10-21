@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The physics behind balancing on hands (part 1)"
+title: "The straight two-arm handstand model"
 date: 2026-10-21
 ---
 
