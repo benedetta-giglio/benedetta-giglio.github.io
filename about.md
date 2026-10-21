@@ -6,6 +6,6 @@ permalink: /about/
 
  HEAD
 
-lorem
-ipsum
-6a24eb7 (Update about page)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Vestibulum consequat mi quis pretium semper. 
+Proin luctus orci ac neque venenatis, quis commodo dolor posuere. 
