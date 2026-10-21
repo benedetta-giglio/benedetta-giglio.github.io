@@ -58,14 +58,19 @@ $$
 
 where:
 
-\\( I_O \\) is the moment of inertia about the pivot (the wrists)
-\\( \alpha = \ddot{\theta} \\) is the angular acceleration
-\\( m \\) is the body mass
-\\( g \\) is the gravitational acceleration
-\\( h \\) is the distance from the pivot to the center of mass
-\\( \tau \\) is the control torque from the muscles
-\\( \theta \\) is the angle between the body axis and the vertical, considered positive when the pendulum inclines to the right
+\( I_0 \) is the moment of inertia about the pivot (the wrists).<br>
 
+\( \alpha = \ddot{\theta} \) is the angular acceleration.<br>
+
+\( m \) is the body mass.<br>
+
+\( g \) is the gravitational acceleration.<br>
+
+\( h \) is the distance from the pivot to the center of mass.<br>
+
+\( \tau \) is the control torque from the muscles.<br>
+
+\( \theta \) is the angle between the body axis and the vertical, considered positive when the pendulum inclines to the right.
 
 For a perfectly stationary handstand, both the net external force and the net external moment must be zero. In a real handstand, however, small movements and corrective actions mean that the system is not always in exact static equilibrium.
 When the handstand is tilting, we can model the human body as an inverted pendulum, and the equilibrium we are dealing with is what mechanics calls an unstable equilibrium.
