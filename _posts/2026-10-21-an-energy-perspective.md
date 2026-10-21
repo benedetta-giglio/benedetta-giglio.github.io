@@ -5,6 +5,7 @@ date: 2026-10-21 12:00:00 +0200
 ---
 
 Models help us understand the mechanics of a handstand, but how should the body adjust its position to maintain balance? A multibody model helps us see the complete mechanical picture. To effectively restore equilibrium, adjustments must be applied in the right direction, with the appropriate magnitude, and at the right time. 
+
 This is where training comes in: developing the strength, mobility, and coordination required to generate these joint torques is something purely theoretical mechanics cannot do for you. Let us set this aside for now and return to our simplified model, in which the body behaves as an inverted pendulum pivoting about the wrists.
 
 Let \\(\theta\\) be the angular deviation from the perfectly upright position, where positive angles represent a tilt to the right. 
