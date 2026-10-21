@@ -8,7 +8,7 @@ Models help us understand the mechanics of a handstand, but how should the body 
 
 This is where training comes in: developing the strength, mobility, and coordination required to generate these joint torques is something purely theoretical mechanics cannot do for you. Let us set this aside for now and return to our simplified model, in which the body behaves as an inverted pendulum pivoting about the wrists.
 
-Let \\(\theta\\) be the angular deviation from the perfectly upright position, where positive angles represent a tilt to the right. 
+Let $$\theta$$ be the angular deviation from the perfectly upright position, where positive angles represent a tilt to the right. 
 In this simplified setup, the rotational equation of motion is:
 
 $$I\ddot{\theta} = mgh\sin\theta + \tau$$
