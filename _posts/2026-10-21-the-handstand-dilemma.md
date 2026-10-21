@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The handstand dilemma: the physics behind balancing on your hands"
+title: "The physics behind balancing on your hands"
 date: 2026-10-21
 ---
 
