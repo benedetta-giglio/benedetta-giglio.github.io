@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-test test 
-test test
+ HEAD
+
+lorem
+ipsum
+6a24eb7 (Update about page)
