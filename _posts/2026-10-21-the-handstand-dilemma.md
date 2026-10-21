@@ -99,5 +99,5 @@ Trying to explain how a person balances in a handstand by studying the behavior 
 
 The same principle applies here: the level of detail we need depends on the question we want to answer. To understand the overall mechanics of a handstand, we do not need to model every tissue deformation. We need to zoom back out and represent the body as an articulated system of connected segments.
 
-* [to be continued...]
+*[to be continued...]*
 
