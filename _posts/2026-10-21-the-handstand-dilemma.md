@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The physics behind balancing on your hands"
+title: "The physics behind balancing on hands (part 1)"
 date: 2026-10-21
 ---
 
