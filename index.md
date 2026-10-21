@@ -1,6 +1,6 @@
 ---
 layout: home
-list_title: Projects
+list_title: articles
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
