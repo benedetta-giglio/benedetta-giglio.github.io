@@ -9,16 +9,21 @@ When we talk about straight handstands, we can consider three main segments, sin
 This configuration can be modeled by a triple inverted pendulum, a model widely used in robotics to describe the double-support balance of humanoid robots. 
 We can use this model by considering that our pivots are the wrists and not the ankles; the segment proportions will change (Figure 6).
 
+
 <div class="figure-row">
   <figure>
-    <img src="{{ '/assets/img/handstand_three_segment_model.png' | relative_url }}" alt=handstand_three_segment_model">
-    <figcaption>Figure 5.Three segment model.</figcaption>
+    <img src="{{ '/assets/img/handstand_three_segment_model.png' | relative_url }}"
+         alt="Handstand three segment model">
+    <figcaption>Figure 5. Three segment model.</figcaption>
   </figure>
+
   <figure>
-    <img src="{{ '/assets/img/triple_inverted_pendulum_model.png' | relative_url }}" alt="triple_inverted_pendulum_model">
+    <img src="{{ '/assets/img/triple_inverted_pendulum_model.png' | relative_url }}"
+         alt="Triple inverted pendulum model">
     <figcaption>Figure 6. Triple inverted pendulum model.</figcaption>
   </figure>
-</div> 
+</div>
+
 
 In an ideal straight handstand, we model the body as a simple inverted pendulum pivoting at the wrists. 
 In reality, all bodies rely on a combination of wrist, shoulder, and hip strategies to manage perturbations. 
