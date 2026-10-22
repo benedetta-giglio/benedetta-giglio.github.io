@@ -1,7 +1,75 @@
 ---
 ---
 
+$base-font-family: Georgia, "Times New Roman", serif;
+$base-font-size: 18px;
+$content-width: 680px;
+$text-color: #222222;
+$brand-color: #222222;
+$background-color: #ffffff;
+$grey-color: #777777;
+
 @import "minima";
+
+/* ---------- Centering ---------- */
+
+/* Page body: home, posts and pages */
+.page-content {
+  text-align: center;
+}
+
+/* Lists: keep the bullets next to the text, but centre the block */
+.page-content ul,
+.page-content ol {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Home: the list of articles stays centred */
+.page-content .post-list {
+  display: block;
+  text-align: center;
+}
+
+/* Code stays left-aligned */
+pre,
+code {
+  text-align: left;
+}
+
+/* Header: title and menu centred (desktop only) */
+@media (min-width: 600px) {
+  .site-header .wrapper {
+    text-align: center;
+  }
+
+  .site-title {
+    float: none;
+    display: block;
+    margin-right: 0;
+  }
+
+  .site-nav {
+    float: none;
+    display: block;
+  }
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+}
+
+.site-footer .footer-col {
+  float: none;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ---------- Figures ---------- */
 
 figure {
   margin: 2rem auto;
@@ -29,7 +97,6 @@ figcaption {
 .figure-row figure {
   flex: 1;
   margin: 0;
-  text-align: center;
 }
 
 @media (max-width: 600px) {
