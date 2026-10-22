@@ -18,3 +18,22 @@ figcaption {
   color: #6b6b6b;
   margin-top: 0.5rem;
 }
+
+.figure-row {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  align-items: flex-start;
+}
+
+.figure-row figure {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .figure-row {
+    flex-direction: column;
+  }
+}
