@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The multi-segment model and joint strategies"
-date: 2026-10-05
+date: 2026-10-22
 ---
 
 Now that we know reality is more complicated, we can accept that, under certain conditions, we don’t need such a sophisticated model to understand what happens. 
