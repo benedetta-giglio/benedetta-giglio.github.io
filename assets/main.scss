@@ -41,6 +41,15 @@ $grey-color: #777777;
   -webkit-hyphens: auto;
 }
 
+/* Articles: justified body text */
+.post-content p,
+.post-content li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* Code stays left-aligned */
 pre,
 code {
