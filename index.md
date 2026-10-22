@@ -1,6 +1,6 @@
 ---
 layout: home
-list_title: articles
+list_title: breakdown
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
