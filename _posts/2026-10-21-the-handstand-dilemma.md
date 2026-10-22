@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The straight two-arm handstand model"
-date: 2026-10-21
+date: 2026-10-20
 ---
 
 Let’s start with a simplified case: a straight, two-arm handstand. If we initially treat the human body as a single rigid body, we can describe its motion through the position of its center of mass. The governing equation is Newton’s second law:
