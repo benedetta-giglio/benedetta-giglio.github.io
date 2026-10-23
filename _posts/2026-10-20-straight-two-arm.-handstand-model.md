@@ -8,11 +8,13 @@ In this post we will exploit a first simple model to start understanding why han
 
 Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists. If we initially treat the human body as a single rigid body, we can describe its motion through the position of its center of mass. We are looking at the system from sagittal plane, that divides the encephalus and the rest of the body into right and left sections (Figure 1):
 
+
 <figure>
   <img src="{{ '/assets/img/single_segment_handstand_pendulum_model.png' | relative_url }}"
        alt="Single segment handstand">
   <figcaption>Figure 1. The body modelled as a single element described by its center of mass.</figcaption>
 </figure>
+
 
 The governing equation is Newton’s second law:
 
@@ -42,13 +44,11 @@ In a real handstand, however, body is never perfectly stationary and perpendicul
 
 A better model to represent the body tilting in a handstand is the **single inverted pendulum** (SIP), a common model used in biomechanics applications like gait analysis, upright position and athletics skills, including handstands. (Figure 2).
 
-
 <figure>
   <img src="{{ '/assets/img/inverted_pendulum_handstand_model_r1.png' | relative_url }}"
        alt="Inverted pendulum model">
   <figcaption>Figure 2. Single segment inverted pendulum model for a straight two-arm handstand.</figcaption>
 </figure>
-
 
 where:
 
