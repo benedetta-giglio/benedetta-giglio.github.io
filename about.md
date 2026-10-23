@@ -4,4 +4,4 @@ title: about
 permalink: /about/
 ---
 
-This page is under construction 
+Just a handstand practioner, obsessed with handstand.
