@@ -6,6 +6,8 @@ date: 2026-10-20
 
 In this post we will exploit a first simple model to start understanding why handstand are intrinsecally unstable. Let’s start with a simplified case: a straight, two-arm handstand. 
 
+## A first model: the body is a stick
+
 Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists. If we initially treat the human body as a single rigid body, we can describe its motion through the position of its center of mass. We are looking at the system from sagittal plane, that divides the encephalus and the rest of the body into right and left sections (Figure 1):
 
 
@@ -42,6 +44,8 @@ $$
 
 In a real handstand, however, body is never perfectly stationary and perpendicular to the floor. In fact, small adjustments are performed at the hand level meaning the acceleration is not zero.
 
+## Single inverted pendulum: a more accurate model for humans
+
 A better model to represent the body tilting in a handstand is the **single inverted pendulum** (SIP), a common model used in biomechanics applications like gait analysis, upright position and athletics skills, including handstands. (Figure 2).
 
 <figure>
@@ -62,12 +66,15 @@ where:
 
 In our single inverted pendulum model, the center of mass describes a **simple harmonic oscillatory motion** along a circular arc. Under this regime, its velocity continuously changes direction at the oscillation limits and varies in magnitude, reaching its maximum as the system crosses the vertical reference line.
 
-In a real handstand, where micro-adjustments are performed by the fingers and palms to maintain balance, this motion deviates slightly from a pure harmonic profile. Transient accelerations and decelerations naturally occur due to neuromuscular control, but these variations must remain extremely small to stay within the stability limits of the system.
-
-
 <figure>
   <img src="{{ '/assets/img/handstand_dynamic_equilibrium.gif' | relative_url }}"
        alt="Single inverted pendulum model">
   <figcaption>Figure 3. Motion of the inverted pendulum.</figcaption>
 </figure>
 
+In a real handstand, where micro-adjustments are performed by the fingers and palms to maintain balance, this motion deviates slightly from a pure harmonic profile. Transient accelerations and decelerations naturally occur due to neuromuscular control, but these variations must remain extremely small to stay within the stability limits of the system.
+
+#### Sources and references
+[Frontiers]([(https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1694648/full]) - Biomechanical analyses of the handstand: a systematic review
+Figure 1, 2 - AI-generated illustration created with Claude (Anthropic) for dopamine-chamber.github.io
+Figure 3 - Self generated via Python
