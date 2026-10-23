@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The human body is a heterogeneous, deformable material"
+title: "Muscle is a heterogeneous, deformable material"
 date: 2026-10-21
 ---
 
