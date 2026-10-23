@@ -4,11 +4,9 @@ title: "The straight two-arm handstand model"
 date: 2026-10-20
 ---
 
-Let’s start with a simplified case: a straight, two-arm handstand. 
+In this post we will exploit a first simple model to start understanding why handstand are intrinsecally unstable. Let’s start with a simplified case: a straight, two-arm handstand. 
 
-Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists.
-
-If we initially treat the human body as a single rigid body, we can describe its motion through the position of its center of mass. We are looking at the system from sagittal plane, that divides the encephalus and the rest of the body into right and left sections (Figure 1):
+Let’s suppose that the handstand system is perfectly symmetrical, with two arms pushing with the same force and in the same direction. We assume zero inclination in the frontal plane, and consider only the inclination that occurs in the sagittal plane when we push with both fingers and palms to adjust the balance. We also assume that arms, shoulders, hips and legs work identically and do not generate twists. If we initially treat the human body as a single rigid body, we can describe its motion through the position of its center of mass. We are looking at the system from sagittal plane, that divides the encephalus and the rest of the body into right and left sections (Figure 1):
 
 <figure>
   <img src="{{ '/assets/img/single_segment_handstand_pendulum_model.png' | relative_url }}"
