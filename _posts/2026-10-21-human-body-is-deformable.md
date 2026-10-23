@@ -3,21 +3,18 @@ layout: post
 title: "The human body is a heterogeneous, deformable material"
 date: 2026-10-21
 ---
-A perfectly balanced handstand is what we would call the ideal case. The human body, by contrast, is a remarkable organic assembly of tissues that deform under load. Our goal in a handstand is to coordinate all these components so that they work together to — metaphorically speaking — escape gravity (which, physically speaking, is impossible for a body subject to gravity).
 
-To build a useful model, we must account for the mechanical complexity of the human body.
-Bones, muscles, tendons and other tissues of the musculoskeletal system have different mechanical properties. Their internal structure influences how they deform, how they generate or transmit forces, and how they respond to loading. Different tissues do not behave in the same way, nor do they respond on the same timescale.
+A perfectly balanced handstand is what we would call the ideal case. The human body, by contrast, is a remarkable organic assembly of tissues that deform under load. Our goal in a handstand is to coordinate all these components so that they work together to — metaphorically speaking — escape gravity (which, physically speaking, is impossible for a body subject to gravity). Therefore, to build a useful model, we must account for the mechanical complexity of the human body.
 
-To understand what happens within each tissue, we can borrow some concepts from continuum mechanics.
-This branch of mechanics describes the behavior of materials by treating them as continuous media. A common form of the equation of motion — known as Cauchy’s equation of motion — is:
+## A first model and why it doesn't work
+
+To understand what happens within each material, we can explore the continuum mechanics. This branch of mechanics describes the behavior of materials by treating them as continuous media. A common form of the equation of motion — known as Cauchy’s equation of motion — is:
 
 $$
 \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} = \nabla \cdot \boldsymbol{\sigma} +\rho \mathbf{f}
 $$
 
-I acknowledge the notation is a bit tricky but, in other words, instead of considering only the motion of the whole body through its center of mass, we zoom in on a small region of tissue and examine the local balance of momentum.
-
-It is the equivalent of applying Newton’s second law, but on a much smaller scale, showing how every small volume element behaves under external loading and interacts with its neighboring elements (Figure 1):
+I acknowledge the notation is a bit tricky but, in other words, instead of considering only the motion of the whole body through its center of mass, we zoom in on a small region of tissue and examine the local balance of momentum. It is the equivalent of applying Newton’s second law, but on a much smaller scale, showing how every small volume element behaves under external loading and interacts with its neighboring elements (Figure 1):
 
 <figure>
   <img src="{{ '/assets/img/cauchy_local_equation_of_motion.png' | relative_url }}"
@@ -35,15 +32,17 @@ Let’s analyze the individual terms:
 <i>∇·σ</i> = divergence of the stress field<br>
 <i>f</i> = external body forces per unit mass (e.g., gravity)
 
-This model is useful to show that things are more complicated and that another scale of study exists. 
+This model is useful to show that things are more complicated and that another scale of study exists. Yet, with this model we assume small displacements and small strains, which allows us to write the equation of motion with the simple time derivative \\( \partial^2 \mathbf{u}/\partial t^2 \\). For large deformations, as in a strongly contracting muscle, the exact formulation refers to the reference configuration and uses the first Piola–Kirchhoff stress.
 
-Note: With this model we assume small displacements and small strains, which allows us to write the equation of motion with the simple time derivative \\( \partial^2 \mathbf{u}/\partial t^2 \\). For large deformations, as in a strongly contracting muscle, the exact formulation refers to the reference configuration and uses the first Piola–Kirchhoff stress.
+Cauchy's equation is a balance of momentum, so it holds for any material, from a tendon to a block of rubber. What it does not tell us is how the stress \\( \boldsymbol{\sigma} \\) depends on the tissue itself. Bones, muscles, tendons and other tissues of the musculoskeletal system have different mechanical properties. Their internal structure influences how they deform, how they generate or transmit forces, and how they respond to loading. Different tissues do not behave in the same way, nor do they respond on the same timescale.
 
-Cauchy's equation is a balance of momentum, so it holds for any material, from a tendon to a block of rubber. What it does not tell us is how the stress \\( \boldsymbol{\sigma} \\) depends on the tissue itself. To close the problem we need a **constitutive law**, a rule that links the stress to the strain, to the rate of strain and, for muscle, to its activation. 
+## Body is viscoelastic: the Hill model
 
-A tendon is well described by a nonlinear elastic law: it is soft at first and becomes stiffer as it is stretched. Muscle is more complicated, because it can generate force actively.
+To close the problem we need a **constitutive law**, a rule that links the stress to the strain, to the rate of strain and, for muscle, to its activation. 
 
 A classical answer is the Hill-type muscle model. Instead of following every small volume element, it lumps the tissue into a single force acting along the line of the muscle fibres. This force is built from a few phenomenological functions that reproduce experimental observations: the active force depends on the fibre length and on its velocity, the passive force grows when the muscle is stretched, and activation cannot change instantaneously (Figure 2).
+
+A tendon is well described by a nonlinear elastic law: it is soft at first and becomes stiffer as it is stretched. Muscle is more complicated, because it can generate force actively.
 
 In normalized form:
 
@@ -64,7 +63,7 @@ where:
   <img src="{{ '/assets/img/hill_muscle_isometric.gif' | relative_url }}"
        alt="Figure 2. Hill muscle">
   <figcaption>
-    <strong>Figure 2.</strong> Simplified inverted pendulum model of a stationary handstand. The body is represented as a rigid segment pivoting about the hands, while gravity acts through the center of mass.
+    <strong>Figure 2.</strong> Isometric contraction of a Hill-type muscle-tendon unit: as activation rises, the fibre shortens slightly and stretches the tendon, which transmits the force.
   </figcaption>
 </figure>
 
