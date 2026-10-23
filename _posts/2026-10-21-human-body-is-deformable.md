@@ -17,7 +17,17 @@ $$
 
 I acknowledge the notation is a bit tricky but, in other words, instead of considering only the motion of the whole body through its center of mass, we zoom in on a small region of tissue and examine the local balance of momentum.
 
-It is the equivalent of applying Newton’s second law, but on a much smaller scale, showing how every small volume element behaves under external loading and interacts with its neighboring elements. Let’s analyze the individual terms:
+It is the equivalent of applying Newton’s second law, but on a much smaller scale, showing how every small volume element behaves under external loading and interacts with its neighboring elements (Figure 1):
+
+<figure>
+  <img src="{{ '/assets/img/cauchy_local_equation_of_motion.png' | relative_url }}"
+       alt="Cauchy local equation of motion">
+  <figcaption>
+    Figure 1. Cauchy local equation of motion.
+  </figcaption>
+</figure>
+
+Let’s analyze the individual terms:
 
 <i>ρ</i> = mass density of the medium (the tissue)<br>
 <i>u</i> (or <i>u</i><sub>i</sub>) = displacement field<br>
@@ -25,6 +35,46 @@ It is the equivalent of applying Newton’s second law, but on a much smaller sc
 <i>∇·σ</i> = divergence of the stress field<br>
 <i>f</i> = external body forces per unit mass (e.g., gravity)
 
-This model is useful to show that things are more complicated and that another scale of study exists. However, understanding how forces are transmitted through our tissues is not the same as understanding how the body moves as a whole.
+This model is useful to show that things are more complicated and that another scale of study exists. 
 
-Trying to explain how a person balances in a handstand by studying the behavior of every individual tissue is a little like trying to understand how a car drives down a road by examining the microscopic interactions within its materials. Those interactions matter, but they do not, by themselves, explain the behavior of the entire system.
+Note: With this model we assume small displacements and small strains, which allows us to write the equation of motion with the simple time derivative \\( \partial^2 \mathbf{u}/\partial t^2 \\). For large deformations, as in a strongly contracting muscle, the exact formulation refers to the reference configuration and uses the first Piola–Kirchhoff stress.
+
+Cauchy's equation is a balance of momentum, so it holds for any material, from a tendon to a block of rubber. What it does not tell us is how the stress \\( \boldsymbol{\sigma} \\) depends on the tissue itself. To close the problem we need a **constitutive law**, a rule that links the stress to the strain, to the rate of strain and, for muscle, to its activation. 
+
+A tendon is well described by a nonlinear elastic law: it is soft at first and becomes stiffer as it is stretched. Muscle is more complicated, because it can generate force actively.
+
+A classical answer is the Hill-type muscle model. Instead of following every small volume element, it lumps the tissue into a single force acting along the line of the muscle fibres. This force is built from a few phenomenological functions that reproduce experimental observations: the active force depends on the fibre length and on its velocity, the passive force grows when the muscle is stretched, and activation cannot change instantaneously (Figure 2).
+
+In normalized form:
+
+$$
+F_M = F_{M0}\left[a\,f_L(\bar{L}_M)\,f_V(\bar{v}_M) + f_{PE}(\bar{L}_M)\right]
+$$
+
+where:
+
+- \\( F_{M0} \\) is the maximum isometric force of the muscle
+- \\( a \\) is the activation level, between 0 and 1
+- \\( f_L \\) is the force–length relationship of the contractile element, with a maximum at the optimal fibre length
+- \\( f_V \\) is the force–velocity relationship, which reduces the force when the muscle shortens and increases it when the muscle is stretched
+- \\( f_{PE} \\) is the passive force of the parallel elastic element, which does not depend on activation
+- \\( \bar{L}_M \\) and \\( \bar{v}_M \\) are the fibre length and velocity, normalized by the optimal length
+
+<figure>
+  <img src="{{ '/assets/img/hill_muscle_isometric.gif' | relative_url }}"
+       alt="Figure 2. Hill muscle">
+  <figcaption>
+    <strong>Figure 2.</strong> Simplified inverted pendulum model of a stationary handstand. The body is represented as a rigid segment pivoting about the hands, while gravity acts through the center of mass.
+  </figcaption>
+</figure>
+
+The muscle is connected in series with an elastic tendon, so that the force transmitted to the skeleton is \\( F_T = F_M \cos\alpha \\), where \\( \alpha \\) is the pennation angle. Multiplying this force by the moment arm \\( r \\) of the muscle about the joint gives the torque it produces, \\( \tau = r\,F_T \\). This is the torque \\( \tau \\) that appears in the equation of motion of the inverted pendulum.
+
+#### Sources and references
+<a href="https://bmclab.github.io/BMC/"
+   target="_blank"
+   rel="noopener noreferrer">
+   GitHub - BMC Lab
+</a> - Notes on Scientific Computing for Biomechanics and Motor Control
+Figure 1 - AI generated using Claude (Anthropic) for dopamine-chamber.github.io
+Figure 2 - generated via Python using BMC Notebook
