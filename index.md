@@ -3,6 +3,6 @@ layout: home
 list_title: breakdown
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Vestibulum consequat mi quis pretium semper.
-Proin luctus orci ac neque venenatis, quis commodo dolor posuere.
+Balancing on hands is a tricky, complex, and fascinating topic. 
+In recent years, it has been widely debated in the minds of obsessed individuals and within biomechanical scientific literature. 
+This blog aims to do what physics does: observe the phenomenon. And then do what engineering does: unpack a complex problem into smaller, simple problems.
