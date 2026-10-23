@@ -4,4 +4,4 @@ title: about
 permalink: /about/
 ---
 
-Just a handstand practioner, obsessed with handstand.
+Just a handstand practioner, obsessed with the handbalancing art.
